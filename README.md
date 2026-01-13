@@ -1,48 +1,50 @@
-# Student Management System (CRUD + Authentication)
+# Student Management System (Full-Stack CRUD + Authentication)
 
-A full-stack Student Management System built for internship-level demonstration.
+A full-stack Student Management System built for internship purposes to demonstrate CRUD operations, authentication, relational database modeling, and REST API integration.
 
-## Tech Stack
+---
 
-Frontend:
+## 🚀 Tech Stack
+
+### Frontend:
 - HTML
 - CSS
-- JavaScript (Vanilla)
+- Vanilla JavaScript (Fetch API)
 
-Backend:
+### Backend:
 - Node.js
 - Express.js
 - Sequelize ORM
 - JWT Authentication
 - BCrypt Password Hashing
 
-Database:
-- MySQL
+### Database:
+- MySQL (Relational)
 
-## Features
+---
 
-✔ User Authentication (JWT)  
-✔ Role-Based Access (Admin, Staff)  
-✔ Students CRUD  
-✔ Courses CRUD  
-✔ Enrollment (Relation: Student ↔ Course)  
-✔ Search, Sort, Pagination  
-✔ Secure DB Queries (Prepared ORM)  
+## 🔐 Authentication & Authorization
+
+✔ JWT-based login  
+✔ Password hashing (bcrypt)  
+✔ Role-based access control (Admin, Staff)  
+✔ Protected API endpoints  
+
+---
+
+## 📦 Features
+
+✔ Create / Read / Update / Delete Students  
+✔ Create / Read / Update / Delete Courses  
+✔ Enroll Students into Courses  
+✔ Many-to-Many Relationship (Students ↔ Courses)  
+✔ Search + Filter + Sorting + Pagination  
 ✔ Form Validation (Frontend + Backend)  
+✔ Secure database queries via ORM  
+✔ Modular MVC Architecture  
+✔ Token-based frontend session  
 
-## Architecture
+---
 
-- Layered MVC Folder Structure
-- RESTful API Design
-- Token Protected Endpoints
+## 📊 System Architecture
 
-## Screenshots (Will Add)
-- Login Page
-- Dashboard (Students)
-- Courses Page
-- Enrollment Page
-
-## How to Run
-
-### Backend Setup
-1. Install dependencies:
